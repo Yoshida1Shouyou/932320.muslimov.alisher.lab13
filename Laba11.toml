@@ -1,5 +1,5 @@
 [Laba11]
-name = "laba11"
+name = "laba13"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,3 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "flask>=3.1.2",
 ]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
