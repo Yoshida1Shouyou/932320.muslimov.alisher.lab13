@@ -1,0 +1,9 @@
+{% extends '11base.html' %} {% block head %}
+<title>Calc - Backend2</title>
+{% endblock %} {% block content %}
+<h1>Result</h1>
+{% if error %}
+<h3>{{ error }}</h3>
+{% else %}
+<h3>{{ first_number }} {{ operation }} {{ second_number }} = {{ result }}</h3>
+{% endif %} {% endblock %}

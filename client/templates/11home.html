@@ -1,0 +1,14 @@
+{% extends '11base.html' %} {% block head %}
+<title>Home Page - Backend1</title>
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/11home.css') }}"
+/>
+{% endblock %} {% block content %}
+<h1>Calc Service Demonstration</h1>
+<div>
+    <ul>
+        <li><a href="/CalcService/PassUsingJinja2">Using Jinja2</a></li>
+    </ul>
+</div>
+{% endblock %}
